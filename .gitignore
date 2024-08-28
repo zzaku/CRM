@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Debugging
+*.local
+.vscode/
+.idea/
+
+# Coverage directory used by Jest
+coverage/
+
+# Output of npm package
+dist/
+build/
+
+# Docker files
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# Temporary files
+tmp/
+temp/
+
+# Jest snapshots
+*.snap
+
+# Babel cache
+.babelrc
+
+# TypeScript
+*.tsbuildinfo
+
+# PM2 process manager logs
+.pids
+*.pid
+
+# Test database files
+*.seed
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
